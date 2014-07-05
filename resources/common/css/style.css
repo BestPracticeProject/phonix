@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* fonts
+ * 1. font-family: 'PT Sans', sans-serif;
+ * 2. font-family: 'PT Sans Narrow', sans-serif;
+ */
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic);
+.wrapper {
+  font: 400 14px 'PT Sans', sans-serif;
+}
+
+.header {
+  padding: 50px 0 0 0;
+  background: url('../img/header/bg.png') no-repeat;
+  background-size: cover;
+}
+
+.header__inner {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  display: block;
+  width: 151px;
+  height: 271px;
+  margin: 0 auto;
+  background: url('../img/header/logo.png') no-repeat;
+}
+
+.header__info {
+  position: relative;
+  bottom: 30px;
+  max-width: 325px;
+  padding: 0 0 50px 0;
+  color: #fff;
+}
+
+/* sloder info */
+.slider_info__title {
+  margin: 0 0 15px 0;
+  font: 700 48px/46px 'PT Sans Narrow', sans-serif;
+}
+
+

@@ -28,16 +28,22 @@
   <![endif]-->
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  <link rel="shortcut icon" href="resources/common/img/favicons/favicon.ico">
+  <link rel="apple-touch-icon" href="resources/common/img/favicons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="resources/common/img/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="resources/common/img/favicons/apple-touch-icon-114x114.png">
+  <!-- for windows8 -->
+  <meta name="application-name" content="Project">
+  <meta name="msapplication-TileImage" content="resources/common/img/favicons/favicon.png">
+  <meta name="msapplication-TileColor" content="#fff">
 
   <!-- Modernizr v2.7.2-->
   <script src="resources/common/js/libs/modernizr-2.7.2.js"></script>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="resources/common/css/common.css" />
+  <link rel="stylesheet" href="resources/common/css/style.css" />
+  <link rel="stylesheet" href="resources/bxslider/css/jquery.bxslider.css" />
 
   <!-- Application-specific meta tags -->
   <!-- Open Graph protocol -->
@@ -48,10 +54,46 @@
 </head>
 <body>
   <div class="wrapper">
+    <header class="header">
+      <div class="header__inner">
+      <a href="index.html" class="header__logo"></a>
+
+        <div class="header__info">
+          <ul class="slider_info j-slider_info">
+            <li>
+              <h3 class="slider_info__title">Изысканность и cтиль</h3>
+              <p class="slider_info__desc">
+                Мы не просто наносим выбранную Вами татуировку. Мы предварительно советуем Вам, какие цвета, рисунки Вам больше подойдут, куда лучше всего нанести татуировку, а также какая татуировка поможет добиться тех или иных жизненных целей.
+              </p>
+              <br>
+            </li>
+            <li>
+              <h3 class="slider_info__title">Изысканность и cтиль</h3>
+              <p class="slider_info__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis rem iste impedit dolorem ut, laudantium quo fugit excepturi explicabo perspiciatis! Animi inventore laboriosam fugit molestias vitae quaerat, ad, fugiat error.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quas quam ipsam numquam repudiandae, quidem commodi laborum quia. Vel impedit aperiam, quod nihil similique cum quae quisquam veritatis omnis vitae!
+              </p>
+              <br>
+            </li>
+
+            <li>
+              <h3 class="slider_info__title">Изысканность и cтиль</h3>
+              <p class="slider_info__desc">
+                Мы не просто наносим выбранную Вами татуировку. Мы предварительно советуем Вам, какие цвета, рисунки Вам больше подойдут, куда лучше всего нанести татуировку, а также какая татуировка поможет добиться тех или иных жизненных целей.
+              </p>
+              <br>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </header>
 
   </div>
+<!-- Scripts -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>window.jQuery || document.write("<script src='resources/common/js/libs/jquery-1.11.1.min.js'>\x3C/script>")</script>
+<script src="resources/bxslider/js/jquery.bxslider.min.js"></script>
 <script src="resources/common/js/common.js"></script>
+
 </body>
 </html>
