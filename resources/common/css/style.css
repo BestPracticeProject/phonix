@@ -7,7 +7,9 @@
 
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic);
+
 .wrapper {
+  min-width: 960px;
   height: auto;
   font: 400 14px 'PT Sans', sans-serif;
 }
@@ -185,3 +187,103 @@
   width: 860px;
   background: url('../img/orn/orn-1.png') no-repeat;
 }
+
+
+/* footer */
+.footer {
+  padding: 85px 0;
+  background: #000;
+}
+
+.footer__inner {
+  display: table;
+  width: 100%;
+  padding: 0 3%;
+}
+
+.footer__item {
+  display: table-cell;
+  width: 31%;
+  padding: 0 10% 0 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer__title {
+  margin: 0 0 30px 0;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+.footer__article {
+  margin: 0 0 20px 0;
+}
+
+.footter_article_time {
+  font-size: 12px;
+  color: #e09a21;
+}
+
+.footer__list {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.footer__list_item {
+  position: relative;
+  margin: 0 0 10px 0;
+  padding: 0 0 0 12px;
+}
+
+.footer__list_item:before {
+  content: "-";
+  position: absolute;
+  left: 0;
+}
+
+.footer__address {
+  margin: 0 0 15px 0;
+  font-size: 21px;
+  font-variant: small-caps;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: lowercase;
+}
+
+.footer__ext {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+  font-variant: small-caps;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: lowercase;
+}
+
+.footer__time {
+  color: #e09a21;
+}
+
+.footer__link {
+  display: inline-block;
+  margin: 25px 0;
+  padding: 5px 10px;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  text-decoration: none;
+  color: #e09a21;
+  border: 2px solid #fff;
+}
+
+.footer__tel {
+  display: block;
+  font: 600 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+  .m-footer__tel-home {
+    margin: 0 0 10px 0;
+  }

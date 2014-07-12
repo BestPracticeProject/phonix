@@ -5,6 +5,8 @@
 	$(function(){
 
 			$('.j-slider_info').bxSlider({
+				auto: true,
+				pause: 4000,
 				mode: 'fade',
 				captions: true,
 				controls: false
