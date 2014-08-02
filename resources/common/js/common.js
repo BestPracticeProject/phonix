@@ -4,6 +4,8 @@
 	/* trigger when page is ready */
 	$(function(){
 
+		$('#Container').mixItUp();
+		
 	});
 
 	/* optional triggers

@@ -169,6 +169,7 @@ textarea {
 /* Address `overflow` set to `hidden` in IE 8/9/10/11 */
 button {
   overflow: visible;
+  outline: 0;
 }
 
 /**
@@ -305,13 +306,6 @@ button { cursor: pointer; }
  * FRAMEWORK
  *------------------------------------------------------------------------------*/
 
-.wrapper {
-    background:url('../img/background.png') center top no-repeat,
-                #000;
-    width: 100%;
-
-}
-
 .section {
     overflow: hidden;
     max-width: 1105px;
@@ -325,4 +319,8 @@ button { cursor: pointer; }
     font-family: 'PT Sans', sans-serif;
     color: #fff;
     box-sizing: border-box;
+}
+
+#Container .mix{
+  display: none;
 }

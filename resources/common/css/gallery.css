@@ -1,4 +1,12 @@
+.wrapper {
+    background:url('../img/background.png') center top no-repeat,
+                #000;
+    width: 100%;
+}
 
+body {
+    min-width: 520px;
+}
 /* headder */
 .main_page_link {
     border: 3px solid #ff8a00;
@@ -49,6 +57,7 @@
     padding: 10px;
     box-sizing: border-box;
     text-transform: uppercase;
+    position: relative;
 }
 
 .category__btn:hover {
@@ -56,9 +65,21 @@
 
 }
 
-.category__btn.active {
+.active {
     background-color: #f7941d;
     color: #000;
+}
+
+.category__master_wrap .active {
+    background: none;
+    color: #fff;
+}
+
+.active.m-category__btn_victor:after,
+.active.m-category__btn_jenya:after,
+.active.m-category__btn_ruslan:after,
+.active.m-category__btn_secret:after {
+    opacity: .5;
 }
 
 .chose_master {
@@ -77,9 +98,44 @@
     box-sizing: border-box;
     border-radius: 50%;
     border: solid 4px #f7941d;
-    background: #f7941d;
-
+    background-size: 100%;
 }
+
+.m-category__btn_victor:after,
+.m-category__btn_jenya:after,
+.m-category__btn_ruslan:after,
+.m-category__btn_secret:after {
+    content: "";
+    display: block;
+    width: 95px;
+    height: 95px;
+    background: #f7941d;
+    opacity: 0;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+}
+
+.m-category__btn_secret:after {
+    left: 24px;
+}
+
+.m-category__btn_victor:before {
+    background-image: url('../img/masters/1.png');
+}
+
+.m-category__btn_jenya:before{
+    background-image: url('../img/masters/2.png');
+}
+
+.m-category__btn_ruslan:before {
+    background-image: url('../img/masters/3.png');
+}
+
+.m-category__btn_secret:before {
+    background-image: url('../img/masters/4.png');
+}
+
 .works__list_wrap {
     margin: 35px auto;
     width: 100%;
@@ -105,6 +161,7 @@
 .works__item {
     width: 50%;
     float: left;
+    position: relative;
 }
 
 .works__item_inner {
@@ -197,3 +254,33 @@
     }
 }
 
+/* zoomer */
+/*
+.lb-outerContainer {
+    background-color: #313131 !important;
+    border: 16px solid #313131;
+    position: relative;
+}
+
+.lb-container {
+    
+}
+
+.lb-container img {
+    border: 16px solid #313131;
+    height: auto !important;
+    width: auto !important;
+}
+
+.lb-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.lb-prev {
+    
+}
+
+*/
